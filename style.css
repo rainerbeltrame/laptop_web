@@ -11,27 +11,15 @@ button {
   font-family: "Poppins", sans-serif;
 }
 header {
-  display: flex;
-  align-items: center;
-  width: 90%;
-  height: 10vh;
-  margin: auto;
+
 }
-.logo-container,
-.nav-links,
-.cart {
-  display: flex;
+.logo-container{
+  width: 100%;
+  max-width: 98rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
-.logo-container {
-  flex: 1;
-}
-.logo {
-  font-weight: 400;
-  margin: 5px;
-}
-nav {
-  flex: 2;
-}
+
 .nav-links {
   justify-content: space-around;
   list-style: none;
@@ -49,7 +37,6 @@ nav {
   display: flex;
   width: 90%;
   margin: auto;
-  min-height: 80vh;
   align-items: center;
 }
 .introduction {
@@ -156,12 +143,6 @@ nav {
   .cta {
     padding: 10px 0px 0px 0px;
   }
-  .laptop-select {
-    bottom: 5%;
-    right: 50%;
-    width: 50%;
-    transform: translate(50%, 5%);
-  }
   .cover img {
     height: 80%;
   }
@@ -170,4 +151,5 @@ nav {
   .big-circle {
     opacity: 0.2;
   }
+
 }
